@@ -1,5 +1,6 @@
 <?php
+// Autor: Sergio Gómez
 // El nombre por defecto es Mundo
 $nombre = isset($argv[1]) ? $argv[1] : "Mundo";
-@print "Hola {$argv[1]}\n";
+@print "Hola, {$nombre}\n";
 ?>
